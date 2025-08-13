@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تمارين رحرح عشان تنحت جسمها</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="main-title">تمارين رحرح عشان تنحت جسمها</h1>
+            <p class="subtitle">رحلة شهرية لتحقيق الجسم المثالي - 30 يوم من التحدي والإنجاز</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="workout-grid">
+                <!-- Week 1 -->
+                <div class="week-section">
+                    <h2 class="week-title">الأسبوع الأول - الأساسيات والقوة الخفيفة</h2>
+                    
+                    <!-- Day 1 -->
+                    <div class="workout-day" data-day="1">
+                        <div class="day-header">
+                            <span class="day-number">1</span>
+                            <div class="workout-name">
+                                <h3>القرفصاء - Squats</h3>
+                                <p class="workout-name-english">Squats</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Squats Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">بناء عضلات المؤخرة والفخذين - 3 مجموعات × 15 تكرار</p>
+                                <p class="exercise-instruction">قفي مع مباعدة القدمين بعرض الكتفين، ثم انزلي كما لو كنت تجلسين على كرسي، ثم ارتفعي مرة أخرى</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(1)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 2 -->
+                    <div class="workout-day" data-day="2">
+                        <div class="day-header">
+                            <span class="day-number">2</span>
+                            <div class="workout-name">
+                                <h3>تمرين الضغط - Push-ups</h3>
+                                <p class="workout-name-english">Push-ups</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Push-ups Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تقوية الصدر والذراعين - 3 مجموعات × 10 تكرار</p>
+                                <p class="exercise-instruction">ابدئي بوضعية البلانك، ثم انزلي جسمك نحو الأرض وارفعيه مرة أخرى</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(2)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 3 -->
+                    <div class="workout-day" data-day="3">
+                        <div class="day-header">
+                            <span class="day-number">3</span>
+                            <div class="workout-name">
+                                <h3>رفع الحوض - Glute Bridge</h3>
+                                <p class="workout-name-english">Glute Bridge</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Glute Bridge Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">استهداف المؤخرة وعضلات الفخذ الخلفية - 3 مجموعات × 12 تكرار</p>
+                                <p class="exercise-instruction">استلقي على ظهرك مع ثني الركبتين، ثم ارفعي الحوض نحو الأعلى</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(3)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 4 -->
+                    <div class="workout-day rest-day" data-day="4">
+                        <div class="day-header">
+                            <span class="day-number">4</span>
+                            <div class="workout-name">
+                                <h3>راحة - Rest</h3>
+                                <p class="workout-name-english">Rest Day</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Rest Day" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">يوم راحة - تمارين إطالة خفيفة موصى بها</p>
+                                <p class="exercise-instruction">خذي وقتك للاسترخاء والتمدد الخفيف لمساعدة عضلاتك على التعافي</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(4)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 5 -->
+                    <div class="workout-day" data-day="5">
+                        <div class="day-header">
+                            <span class="day-number">5</span>
+                            <div class="workout-name">
+                                <h3>الطعنات الأمامية - Lunges</h3>
+                                <p class="workout-name-english">Lunges</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Lunges Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تقوية عضلات الساقين - 3 مجموعات × 12 تكرار لكل ساق</p>
+                                <p class="exercise-instruction">خذي خطوة للأمام وانزلي حتى تشكل الركبة زاوية 90 درجة</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(5)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 6 -->
+                    <div class="workout-day" data-day="6">
+                        <div class="day-header">
+                            <span class="day-number">6</span>
+                            <div class="workout-name">
+                                <h3>البلانك - Plank</h3>
+                                <p class="workout-name-english">Plank</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Plank Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تقوية عضلات البطن والظهر - 3 × 30 ثانية</p>
+                                <p class="exercise-instruction">احتفظي بوضعية البلانك مع الحفاظ على استقامة الجسم</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(6)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 7 -->
+                    <div class="workout-day" data-day="7">
+                        <div class="day-header">
+                            <span class="day-number">7</span>
+                            <div class="workout-name">
+                                <h3>رفع الساق الجانبي - Side Leg Raises</h3>
+                                <p class="workout-name-english">Side Leg Raises</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Side Leg Raises Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">استهداف عضلات الفخذ الخارجية - 3 مجموعات × 15 تكرار لكل جانب</p>
+                                <p class="exercise-instruction">استلقي على جانبك وارفعي الساق العلوية ببطء</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(7)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Week 2 -->
+                <div class="week-section">
+                    <h2 class="week-title">الأسبوع الثاني - القوة والنحت</h2>
+                    
+                    <!-- Day 8 -->
+                    <div class="workout-day" data-day="8">
+                        <div class="day-header">
+                            <span class="day-number">8</span>
+                            <div class="workout-name">
+                                <h3>القرفصاء البلغارية - Bulgarian Split Squat</h3>
+                                <p class="workout-name-english">Bulgarian Split Squat</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Bulgarian Split Squat Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين متقدم للقرفصاء - 3 × 10 لكل ساق</p>
+                                <p class="exercise-instruction">ضعي قدمك الخلفية على كرسي أو سطح مرتفع</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(8)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 9 -->
+                    <div class="workout-day" data-day="9">
+                        <div class="day-header">
+                            <span class="day-number">9</span>
+                            <div class="workout-name">
+                                <h3>تسلق الجبال - Mountain Climbers</h3>
+                                <p class="workout-name-english">Mountain Climbers</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Mountain Climbers Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين كارديو للبطن - 3 × 30 ثانية</p>
+                                <p class="exercise-instruction">ابدئي بوضعية البلانك وحركي ركبتيك نحو الصدر بالتناوب</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(9)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 10 -->
+                    <div class="workout-day" data-day="10">
+                        <div class="day-header">
+                            <span class="day-number">10</span>
+                            <div class="workout-name">
+                                <h3>دفع الورك - Hip Thrust</h3>
+                                <p class="workout-name-english">Hip Thrust</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Hip Thrust Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">استهداف عضلات المؤخرة - 3 × 12</p>
+                                <p class="exercise-instruction">استلقي على ظهرك مع ثني الركبتين وارفعي الحوض</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(10)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 11 -->
+                    <div class="workout-day rest-day" data-day="11">
+                        <div class="day-header">
+                            <span class="day-number">11</span>
+                            <div class="workout-name">
+                                <h3>راحة - Rest</h3>
+                                <p class="workout-name-english">Rest Day</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Rest Day" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">يوم راحة - يوغا خفيفة موصى بها</p>
+                                <p class="exercise-instruction">استمتعي بجلسة يوغا خفيفة لتحسين المرونة والاسترخاء</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(11)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 12 -->
+                    <div class="workout-day" data-day="12">
+                        <div class="day-header">
+                            <span class="day-number">12</span>
+                            <div class="workout-name">
+                                <h3>الصعود على الدرجة - Step-Ups</h3>
+                                <p class="workout-name-english">Step-Ups</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Step-Ups Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تقوية الساقين والفخذين - 3 × 12 لكل ساق</p>
+                                <p class="exercise-instruction">صعدي على سطح مرتفع بالتناوب بين الساقين</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(12)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 13 -->
+                    <div class="workout-day" data-day="13">
+                        <div class="day-header">
+                            <span class="day-number">13</span>
+                            <div class="workout-name">
+                                <h3>البلانك الجانبي - Side Plank</h3>
+                                <p class="workout-name-english">Side Plank</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Side Plank Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تقوية عضلات البطن الجانبية - 3 × 20 ثانية لكل جانب</p>
+                                <p class="exercise-instruction">احتفظي بوضعية البلانك الجانبي مع الحفاظ على استقامة الجسم</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(13)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 14 -->
+                    <div class="workout-day" data-day="14">
+                        <div class="day-header">
+                            <span class="day-number">14</span>
+                            <div class="workout-name">
+                                <h3>قرفصاء القفز - Jump Squats</h3>
+                                <p class="workout-name-english">Jump Squats</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Jump Squats Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين كارديو قوي - 3 × 12</p>
+                                <p class="exercise-instruction">قومي بالقرفصاء ثم اقفزي نحو الأعلى</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(14)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Week 3 -->
+                <div class="week-section">
+                    <h2 class="week-title">الأسبوع الثالث - التحمل والنحت</h2>
+                    
+                    <!-- Day 15 -->
+                    <div class="workout-day" data-day="15">
+                        <div class="day-header">
+                            <span class="day-number">15</span>
+                            <div class="workout-name">
+                                <h3>ركلات الحمار - Donkey Kicks</h3>
+                                <p class="workout-name-english">Donkey Kicks</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Donkey Kicks Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">استهداف المؤخرة بشكل مكثف - 3 × 15 لكل ساق</p>
+                                <p class="exercise-instruction">استلقي على أربع وارفعي الساق نحو الأعلى</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(15)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 16 -->
+                    <div class="workout-day" data-day="16">
+                        <div class="day-header">
+                            <span class="day-number">16</span>
+                            <div class="workout-name">
+                                <h3>الفات الروسية - Russian Twists</h3>
+                                <p class="workout-name-english">Russian Twists</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Russian Twists Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تقوية عضلات البطن الجانبية - 3 × 20 لفة</p>
+                                <p class="exercise-instruction">اجلسي مع رفع القدمين وقومي بلف الجذع من جانب لآخر</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(16)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 17 -->
+                    <div class="workout-day" data-day="17">
+                        <div class="day-header">
+                            <span class="day-number">17</span>
+                            <div class="workout-name">
+                                <h3>الطعنات المتقاطعة - Curtsy Lunges</h3>
+                                <p class="workout-name-english">Curtsy Lunges</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Curtsy Lunges Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين متقدم للطعنات - 3 × 12 لكل ساق</p>
+                                <p class="exercise-instruction">تقدمي خطوة للخلف والجانب مع ثني الركبتين</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(17)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 18 -->
+                    <div class="workout-day rest-day" data-day="18">
+                        <div class="day-header">
+                            <span class="day-number">18</span>
+                            <div class="workout-name">
+                                <h3>راحة - Rest</h3>
+                                <p class="workout-name-english">Rest Day</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Rest Day" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">يوم راحة - مشي أو تمارين إطالة</p>
+                                <p class="exercise-instruction">استمتعي بنزهة خفيفة أو تمارين إطالة لتحسين المرونة</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(18)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 19 -->
+                    <div class="workout-day" data-day="19">
+                        <div class="day-header">
+                            <span class="day-number">19</span>
+                            <div class="workout-name">
+                                <h3>رفع الركبتين عاليًا - High Knees</h3>
+                                <p class="workout-name-english">High Knees</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="High Knees Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين كارديو سريع - 3 × 30 ثانية</p>
+                                <p class="exercise-instruction">اركضي في المكان مع رفع الركبتين نحو الصدر</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(19)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 20 -->
+                    <div class="workout-day" data-day="20">
+                        <div class="day-header">
+                            <span class="day-number">20</span>
+                            <div class="workout-name">
+                                <h3>تمرين سوبرمان - Superman</h3>
+                                <p class="workout-name-english">Superman</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Superman Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تقوية عضلات الظهر - 3 × 15</p>
+                                <p class="exercise-instruction">استلقي على بطنك وارفعي الصدر والساقين نحو الأعلى</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(20)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 21 -->
+                    <div class="workout-day" data-day="21">
+                        <div class="day-header">
+                            <span class="day-number">21</span>
+                            <div class="workout-name">
+                                <h3>قرفصاء جانبية - Side-to-Side Squats</h3>
+                                <p class="workout-name-english">Side-to-Side Squats</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Side-to-Side Squats Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين متقدم للقرفصاء - 3 × 12 لكل جانب</p>
+                                <p class="exercise-instruction">قومي بالقرفصاء مع التحرك من جانب لآخر</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(21)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Week 4 -->
+                <div class="week-section">
+                    <h2 class="week-title">الأسبوع الرابع - الدفع النهائي</h2>
+                    
+                    <!-- Day 22 -->
+                    <div class="workout-day" data-day="22">
+                        <div class="day-header">
+                            <span class="day-number">22</span>
+                            <div class="workout-name">
+                                <h3>الطعنات الخلفية - Reverse Lunges</h3>
+                                <p class="workout-name-english">Reverse Lunges</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Reverse Lunges Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين متقدم للطعنات - 3 × 12 لكل ساق</p>
+                                <p class="exercise-instruction">تقدمي خطوة للخلف مع ثني الركبتين</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(22)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 23 -->
+                    <div class="workout-day" data-day="23">
+                        <div class="day-header">
+                            <span class="day-number">23</span>
+                            <div class="workout-name">
+                                <h3>القفز النجمي - Jumping Jacks</h3>
+                                <p class="workout-name-english">Jumping Jacks</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Jumping Jacks Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين كارديو كلاسيكي - 3 × 30 ثانية</p>
+                                <p class="exercise-instruction">اقفزي مع فتح الساقين والذراعين ثم إغلاقهما</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(23)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 24 -->
+                    <div class="workout-day" data-day="24">
+                        <div class="day-header">
+                            <span class="day-number">24</span>
+                            <div class="workout-name">
+                                <h3>ركلات المؤخرة - Glute Kickbacks</h3>
+                                <p class="workout-name-english">Glute Kickbacks</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Glute Kickbacks Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">استهداف المؤخرة - 3 × 15 لكل ساق</p>
+                                <p class="exercise-instruction">استلقي على أربع وارفعي الساق نحو الأعلى والخلف</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(24)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 25 -->
+                    <div class="workout-day rest-day" data-day="25">
+                        <div class="day-header">
+                            <span class="day-number">25</span>
+                            <div class="workout-name">
+                                <h3>راحة - Rest</h3>
+                                <p class="workout-name-english">Rest Day</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Rest Day" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">يوم راحة - يوغا خفيفة أو تمارين إطالة</p>
+                                <p class="exercise-instruction">استمتعي بجلسة يوغا خفيفة أو تمارين إطالة للاسترخاء</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(25)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 26 -->
+                    <div class="workout-day" data-day="26">
+                        <div class="day-header">
+                            <span class="day-number">26</span>
+                            <div class="workout-name">
+                                <h3>الرفعة الميتة بالوزن الذاتي - Deadlifts (Bodyweight)</h3>
+                                <p class="workout-name-english">Bodyweight Deadlifts</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Bodyweight Deadlifts Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تقوية عضلات الظهر والساقين - 3 × 12</p>
+                                <p class="exercise-instruction">قومي بالانحناء للأمام مع الحفاظ على استقامة الظهر</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(26)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 27 -->
+                    <div class="workout-day" data-day="27">
+                        <div class="day-header">
+                            <span class="day-number">27</span>
+                            <div class="workout-name">
+                                <h3>بلانك مع لف الحوض - Plank with Hip Dips</h3>
+                                <p class="workout-name-english">Plank with Hip Dips</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Plank with Hip Dips Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين متقدم للبلانك - 3 × 15</p>
+                                <p class="exercise-instruction">احتفظي بوضعية البلانك مع لف الحوض من جانب لآخر</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(27)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 28 -->
+                    <div class="workout-day" data-day="28">
+                        <div class="day-header">
+                            <span class="day-number">28</span>
+                            <div class="workout-name">
+                                <h3>قفز المتزلج - Skater Jumps</h3>
+                                <p class="workout-name-english">Skater Jumps</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Skater Jumps Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين كارديو متقدم - 3 × 12 لكل جانب</p>
+                                <p class="exercise-instruction">اقفزي من جانب لآخر كما لو كنت تتزلجين</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(28)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 29 -->
+                    <div class="workout-day" data-day="29">
+                        <div class="day-header">
+                            <span class="day-number">29</span>
+                            <div class="workout-name">
+                                <h3>تمرين البيربي - Burpees</h3>
+                                <p class="workout-name-english">Burpees</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Burpees Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمرين كارديو شامل - 3 × 10</p>
+                                <p class="exercise-instruction">قومي بالانخفاض، ثم البلانك، ثم القفز</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(29)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+
+                    <!-- Day 30 -->
+                    <div class="workout-day" data-day="30">
+                        <div class="day-header">
+                            <span class="day-number">30</span>
+                            <div class="workout-name">
+                                <h3>إطالة شاملة - Full Body Stretch</h3>
+                                <p class="workout-name-english">Full Body Stretch</p>
+                            </div>
+                        </div>
+                        <div class="workout-content">
+                            <div class="exercise-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center" alt="Full Body Stretch Exercise" loading="lazy">
+                            </div>
+                            <div class="exercise-details">
+                                <p class="exercise-description">تمارين إطالة شاملة - 5-10 دقائق</p>
+                                <p class="exercise-instruction">احتفلي بإنجازك مع تمارين إطالة شاملة للجسم</p>
+                            </div>
+                            <button class="finish-btn" onclick="completeWorkout(30)">إنهاء التمرين</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-message">مبروك! استمري في رحلتك نحو الجسم المثالي 💪✨</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
